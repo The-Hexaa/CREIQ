@@ -28,3 +28,4 @@ ENV/
 *.db
 results.json
 parsed_results.json
+memory-bank/
