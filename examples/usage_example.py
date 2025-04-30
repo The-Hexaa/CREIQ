@@ -48,7 +48,7 @@ def main():
     results = {}
     with URLFetcher() as fetcher:
         # Fetch only a subset for demo purposes
-        demo_urls = urls[:1]  # Just fetch one URL for demonstration
+        demo_urls = urls  # Fetch all URLs
         
         for url in demo_urls:
             logger.info(f"Fetching content from: {url}")
