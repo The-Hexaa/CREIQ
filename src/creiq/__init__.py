@@ -2,10 +2,7 @@
 CREIQ package initialization.
 """
 
-__version__ = '0.1.0'
+from .roll_number_reader import RollNumberReader
+from .playwright_automation import PlaywrightAutomation
 
-from .fetcher import URLFetcher
-from .processor import RollNumberProcessor
-from .parser import ARBParser
-
-__all__ = ['URLFetcher', 'RollNumberProcessor', 'ARBParser']
+__all__ = ["RollNumberReader", "PlaywrightAutomation"]
